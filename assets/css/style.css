@@ -458,3 +458,52 @@ a {
     line-height: 1.54;
     color: #fff;
 }
+
+/* Features */
+.feature {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.feature .body {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.feature .images {
+    display: flex;
+    gap: 0 30px;
+}
+
+.feature .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40.17%;
+}
+
+.feature .images .img-right,
+.feature .images .img-left {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.feature .images .img-left {
+    margin-top: 34px;
+}
+
+.feature .content .desc {
+    margin-top: 16px;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.feature .content .btn {
+    margin-top: 32px;
+    background: var(--primary-color);
+    min-width: 137px;
+}
